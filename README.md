@@ -1,18 +1,18 @@
 Explicacion de codigos:
 
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+[if lt IE 7]    <html class="no-js lt-ie9 lt-ie8 lt-ie7"> [endif]
 
 Se usaba en versiones antiguas de IE (menores a la 7) para aplicar clases CSS específicas o cargar scripts alternativos cuando el navegador no soportaba ciertas características modernas. La etiqueta <html> recibiría las clases no-js lt-ie9 lt-ie8 lt-ie7, permitiendo personalizar el estilo o comportamiento del sitio para navegadores obsoletos.
 
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+[if IE 7]        <html class="no-js lt-ie9 lt-ie8"> [endif]
 
 Específico para Internet Explorer 7. Si alguien abria la pagina en IE 7 ,la etiqueta html rebibiria las clases no-js lt-ie9 y lt-ie8 (Menor que IE 9 y Menor que IE 8).
 
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+[if IE 8]      <html class="no-js lt-ie9"> [endif]
 
 Especifico para Internet Explorer 8. Se usaba para aplicar reglas CSS o scripts específicos para IE 8, que tenía limitaciones en compatibilidad con HTML5 y CSS3.
 
-<!--Los meta-->
+<!-Los meta->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
